@@ -3,3 +3,6 @@ headless = true
 
 [theme]
 base = "light"
+
+[ui]
+hideTopBar = true

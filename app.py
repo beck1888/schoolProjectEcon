@@ -11,6 +11,14 @@ st.set_page_config(
 )
 # st.title("Prop 32: Change My View")
 
+hide_streamlit_style = """
+<style>
+    #root > div:nth-child(1) > div > div > div > div > section > div {padding-top: 0rem;}
+</style>
+
+"""
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+
 # Configure session states
 if "screen" not in st.session_state:
     st.session_state.screen = -1
