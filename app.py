@@ -121,7 +121,7 @@ if st.session_state.screen == 3:
             # st.html("<br>")
             # st.html("<br>")
             # st.html("<br>")
-            support_reason = st.text_area("Explain why you have selected these reasons", key="support_reason_input")
+            support_reason = st.text_area("Explain why you have selected these reasons", key="support_reason_input", height=400, placeholder="I support Proposition 32 because...")
             submit = st.form_submit_button("Submit", use_container_width=True, type="primary")
             if submit:
                 st.session_state.screen = 4
@@ -143,7 +143,7 @@ if st.session_state.screen == 3:
             # st.html("<br>")
             # st.html("<br>")
             # st.html("<br>")
-            no_support_reason = st.text_area("Explain why you chose these reasons", key="no_support_reason_input")
+            no_support_reason = st.text_area("Explain why you chose these reasons", key="no_support_reason_input", height=400, placeholder="I oppose Proposition 32 because...")
             submit = st.form_submit_button("Submit", use_container_width=True, type="primary")
             if submit:
                 st.session_state.screen = 4
