@@ -1,0 +1,58 @@
+# VS Code
+.vscode/
+.code-workspace
+
+# macOS
+.DS_Store
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Pytest cache
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Pipenv, Poetry
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Python environment files
+.env
+.venv
+env/
+ENV/
+venv/
+ENV.bak/
+venv.bak/
+
+# mypy
+.mypy_cache/
+
+# Pyre
+.pyre/
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# API keys
+.streamlt/secrets.toml

@@ -1,0 +1,1 @@
+hi this is 💩 code for a little school project. plz ignore it. k thanks 😸
