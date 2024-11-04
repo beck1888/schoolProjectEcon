@@ -118,9 +118,9 @@ if st.session_state.screen == 3:
                     "Prices only projected to increase by 0.5%"
                 ]
             )
-            st.html("<br>")
-            st.html("<br>")
-            st.html("<br>")
+            # st.html("<br>")
+            # st.html("<br>")
+            # st.html("<br>")
             support_reason = st.text_area("Explain why you have selected these reasons", key="support_reason_input")
             submit = st.form_submit_button("Submit", use_container_width=True, type="primary")
             if submit:
@@ -140,9 +140,9 @@ if st.session_state.screen == 3:
                     "Consumers will have to pay more as businesses adjust prices to maintain profit margins"
                 ]
             )
-            st.html("<br>")
-            st.html("<br>")
-            st.html("<br>")
+            # st.html("<br>")
+            # st.html("<br>")
+            # st.html("<br>")
             no_support_reason = st.text_area("Explain why you chose these reasons", key="no_support_reason_input")
             submit = st.form_submit_button("Submit", use_container_width=True, type="primary")
             if submit:
