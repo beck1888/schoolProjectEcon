@@ -161,6 +161,7 @@ if st.session_state.screen == 3:
 if st.session_state.screen == 4:
     # Show a message
     st.markdown("## Preparing counter points, hang tight!")
+    st.markdown("*This page will refresh automatically...*")
 
     # Load the Lottie animation
     with open("static_assets/debate.json") as f:
